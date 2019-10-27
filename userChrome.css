@@ -118,7 +118,7 @@
 	-moz-appearance: none !important;
 	color: var(--context-front) !important;
 	padding: 0px 0px 2px 0px !important;
-	min-height: 25px !important;
+	min-height: 22px !important;
 }
 
 #back-button > menupopup menugroup,
@@ -176,10 +176,10 @@
 #widget-overflow > #customizationPanelItemContextMenu menuseparator
 {
 	-moz-appearance: none !important;
-	border: none !important;
-	padding: 0.5px 0px 0.5px 0px !important;
 	margin: 3px 8px 3px 8px !important;
-	background-color: var(--context-separator) !important;
+	padding: 0 !important;
+	border-top: 1px solid var(--context-separator) !important;
+	border-bottom: none !important;
 }
 
 /* Checkbox and Radio Items */
