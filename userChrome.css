@@ -196,8 +196,9 @@
 #widget-overflow #customizationPanelItemContextMenu :-moz-any(menuitem, menu) .menu-text
 {
 	-moz-appearance: none !important;
-	padding-inline-start: 30px !important;
-	margin-right: 32px !important;
+	margin-inline-start: unset !important;
+	padding-inline-start: 32px !important;
+	padding-inline-end: 2px !important;
 }
 
 #autohide-context :-moz-any(menuitem, menu) .menu-iconic-text,
@@ -239,7 +240,7 @@
 	-moz-appearance: none !important;
 	margin-inline-start: unset !important;
 	padding-inline-start: 8px !important;
-	margin-right: 32px !important;
+	padding-inline-end: 2px !important;
 }
 
 #autohide-context menugroup,
@@ -1001,7 +1002,7 @@
 #context-stop .menu-iconic-left,
 #context-bookmarkpage .menu-iconic-left
 {
-	margin-inline-start: -7px !important;
+	margin-inline-start: -8px !important;
 }
 
 #ContentSelectDropdown > menupopup > menuitem > .menu-iconic-text
